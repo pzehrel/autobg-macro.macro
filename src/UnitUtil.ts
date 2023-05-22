@@ -41,9 +41,15 @@ export namespace UnitUtil {
         return px2rem(px, config.rootValue, config.unitPrecision);
       case 'vw':
         return px2vw(px, config.designWidth, config.unitPrecision);
-      default:
-        return px + 'px';
     }
+
+    // 默认返回px
+    if (typeof px === 'number' || (typeof px === 'string' && !Number.isNaN(Number(px)))) {
+      return px + 'px';
+    }
+
+    // 自带单位的值，直接返回
+    return px;
   };
 
   /**
