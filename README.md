@@ -1,7 +1,6 @@
 # autobg-macro.macro
 
-
-[中文](./README_ZH.md)
+[中文](https://github.com/ci0n/autobg-macro.macro/blob/master/README_ZH.md)
 
 
 
