@@ -8,8 +8,15 @@
     "build": "rimraf dist && rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["autobg.macro", "autobg-macro", "babel macros", "macros", "background", "background image"],
+  "files": [
+    "./dist"
+  ],
+  "keywords": ["autobg.macro", "autobg-macro", "babel macros", "macros", "background", "background image", "babel-plugin-macros", "styled-components"],
   "author": "ci0n@outlook.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ci0n/autobg-macro.macro"
+  },
   "license": "ISC",
   "dependencies": {
   },
