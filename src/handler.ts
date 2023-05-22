@@ -58,7 +58,7 @@ export const handler: MacroHandler = ({ references, state, babel, config: _input
 
     // 生成代码
     const viteInjectCode = `new URL('${imagePath}', import.meta.url).toString()`;
-    const webpackInjectCode = `require('${imagePath}')${config.esModule ? '.default' : ''}`;
+    const webpackInjectCode = `require('${imagePath}')${config.esModule ? '?.default' : ''}`;
     const autoInjectCode = `typeof require === 'undefined' ? ${viteInjectCode} : ${webpackInjectCode}`;
 
     const injectCode = config.require === null ? autoInjectCode : config.require ? webpackInjectCode : viteInjectCode;
