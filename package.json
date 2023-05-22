@@ -1,0 +1,46 @@
+{
+  "name": "autobg-macro.macro",
+  "version": "1.0.0",
+  "description": "a babel macro which can auto-generate background-image, width, height CSS code based on the given image path, usually used with `styled-components`",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["autobg.macro", "autobg-macro", "babel macros", "macros", "background", "background image"],
+  "author": "ci0n@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "image-size": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "image-size": "^1.0.2",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "~3.20.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "@babel/core": "^7.21.8",
+    "@babel/types": "^7.21.5",
+    "@types/babel-plugin-macros": "^3.1.0",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^20.2.0",
+    "@types/prettier": "^2.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "typescript": "~5.0.0"
+  }
+}

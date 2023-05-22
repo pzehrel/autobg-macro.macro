@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators":true,
+    "noEmit": true,
+    "strict": true,
+  },
+  "exclude": ["dist"],
+  "include": [".eslintrc.js", "./src"]
+}
