@@ -3,6 +3,9 @@
 [中文](https://github.com/ci0n/autobg-macro.macro/blob/master/README_ZH.md)
 
 
+This project has been migrated to [autobg](https://github.com/pzehrel/autobg)
+
+
 
 a Babel macro that can automatically generate CSS code for background image, width, and height based on a given image path. It is typically used in conjunction with styled-components.
 

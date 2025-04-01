@@ -2,6 +2,8 @@
 
 [English](https://github.com/ci0n/autobg-macro.macro)
 
+此项目已迁移至 [autobg](https://github.com/pzehrel/autobg)
+
 一个 `Babel` 宏，它可以根据给定的图像路径自动生成背景图像、宽度、高度的css代码，通常与 [styled-components](https://github.com/styled-components/styled-components) 一起使用。
 
 迭代自 [littlee/autobg.macro](https://github.com/littlee/autobg.macro)
